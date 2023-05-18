@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+}
+.header > div{
+    display: flex;
+}
+.sales{
+    position: absolute;
+width: 345px;
+height: 120px;
+top: 0px;
+background: #FFFFFF;
+box-shadow: 18px 4px 35px rgba(0, 0, 0, 0.02);
+border: 1px solid red;
+display: flex;
+}
+.circle{
+ height: 64px;
+width: 64px;
+margin: 32px 0 24px 50px;
+}
+.stext{
+    margin: 43px 0 24px 14px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 42px;
+}
+.ham_div{
+    margin: 53px 0 54px 14px;
+}
