@@ -2,6 +2,7 @@ import React from 'react'
 import "./Header.css"
 import circle from "../../assets/Rectangle 4.svg"
 import sicon from "../../assets/search.svg"
+import Notification from './Notification'
 
 
 const Header = () => {
@@ -23,7 +24,7 @@ const Header = () => {
           <input type="text" placeholder='Search here' className='inp' />
           <img src={sicon} alt="ic" className='simg' />
         </div>
-        <div>p</div>
+        <div><Notification/></div>
       </div>
     </div>
   )

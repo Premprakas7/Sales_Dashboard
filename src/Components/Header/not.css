@@ -1,0 +1,9 @@
+.notification{
+    display: flex ;
+}
+.notification > div{
+    width: 56px;
+    height: 56px;
+    margin: 31px 0 31px 22px;
+    padding: 15.75px;
+}
