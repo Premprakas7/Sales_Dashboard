@@ -5,13 +5,10 @@
     display: flex;
 }
 .sales{
-    position: absolute;
 width: 345px;
 height: 120px;
-top: 0px;
 background: #FFFFFF;
 box-shadow: 18px 4px 35px rgba(0, 0, 0, 0.02);
-border: 1px solid red;
 display: flex;
 }
 .circle{
@@ -22,11 +19,64 @@ margin: 32px 0 24px 50px;
 .stext{
     margin: 43px 0 24px 14px;
     font-family: 'Raleway';
+    color:#3E3F7A;
 font-style: normal;
 font-weight: 800;
 font-size: 36px;
 line-height: 42px;
 }
 .ham_div{
-    margin: 53px 0 54px 14px;
+    margin: 50px 0 46px 74px;
+}
+.ham{
+    width: 30px;
+}
+.dash{
+    width: 1545px;
+height: 120px;
+background: #FFFFFF;
+box-shadow: 18px 4px 35px rgba(0, 0, 0, 0.02);
+
+}
+.dash_text{
+    margin: 22px 0 0 50px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+text-align: start;
+
+}
+.wel{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #969BA0;
+    margin: 6px 0 0 50px;
+}
+
+.search_div{
+     width: 453px;  
+    height: 56px;
+    margin: 32px 0 32px 146px;
+    border-radius: 41px;
+    color: #969BA0;
+    display: flex;
+}
+.inp{
+    border: 0px;
+    margin: 16px 0 16px 20px;
+    width: 97px;
+    height: 24px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.simg{
+    margin: 16px 0 16px 280px;
 }

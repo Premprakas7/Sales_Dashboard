@@ -1,7 +1,8 @@
 import React from 'react'
 import "./Header.css"
 import circle from "../../assets/Rectangle 4.svg"
-import ham from "../../assets/03.svg"
+import sicon from "../../assets/search.svg"
+
 
 const Header = () => {
   return (
@@ -10,14 +11,18 @@ const Header = () => {
         <img src={circle} alt='circle' className='circle' />
         <p className='stext'>Sales</p>
         <div className='ham_div'>
-          <img src={ham} alt="" />
-          <img src={ham} alt="" />
-          <img src={ham} alt="" />
+          <img className='ham' src="https://cdn4.iconfinder.com/data/icons/website-library/32/hamburger_List_hamburger_right_menu_website-256.png" alt="" />         
         </div>
       </div>
-      <div>
-        <div>P</div>
-        <div>p</div>
+      <div className='dash'>
+        <div>
+          <p className='dash_text'>Dashboard</p>
+          <p className='wel'>Welcome to Davor Admin!</p>
+        </div>
+        <div className='search_div'>
+          <input type="text" placeholder='Search here' className='inp' />
+          <img src={sicon} alt="ic" className='simg' />
+        </div>
         <div>p</div>
       </div>
     </div>
