@@ -1,0 +1,34 @@
+.inner{
+    display: flex;
+    background:#1A4645;
+    width: 247px;
+    height: 67px;
+    margin-left: 20px;
+    border-radius: 55px;
+}
+.home{
+    margin: 21px 0 0 36px;
+    width: 25px;
+    height: 25px;
+}
+.d_text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+color: white;
+margin-left: 20px;
+}
+.deal > div{
+    display: flex;
+}
+.leads{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: 20px;
+    color: #7C7C7C;;
+} 
