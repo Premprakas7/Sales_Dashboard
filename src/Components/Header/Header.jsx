@@ -18,7 +18,7 @@ const Header = () => {
       <div className='dash'>
         <div>
           <p className='dash_text'>Dashboard</p>
-          <p className='wel'>Welcome to Davor Admin!</p>
+          <p className='welc'>Welcome to Davor Admin!</p>
         </div>
         <div className='search_div'>
           <input type="text" placeholder='Search here' className='inp' />

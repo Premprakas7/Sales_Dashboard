@@ -1,0 +1,52 @@
+.wel{
+    box-sizing: border-box;
+width: 896px;
+height: 143px;
+margin: 15px 100px 0 100px;
+background: #FFFFFF;
+border-bottom: 1px solid #EAEAEA;
+}
+.wel_text{
+    font-family: DM Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+color: #262A2E;
+}
+.date{
+    margin: 10px 0 0 300px;
+    width: 336px;
+    height: 16px;
+}
+.wallet{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 100px;
+    
+}
+.w_img{
+    width: 230px;
+    height: 100px;
+}
+.bar_div{
+    display: flex;
+    margin-left: 100px;
+}
+.bar{
+    width: 600px;
+    height: 350px;
+}
+.pie{
+    height: 350px;
+    width: 200px;
+    margin-left: 50px;
+}
+.ac{
+    width: 800px;
+    height: 300px;
+}
+.new{
+    width: 800px;
+}
