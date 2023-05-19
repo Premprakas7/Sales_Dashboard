@@ -2,8 +2,21 @@
     display: flex ;
 }
 .notification > div{
-    width: 56px;
-    height: 56px;
     margin: 31px 0 31px 22px;
-    padding: 15.75px;
+}
+.name{
+display: flex;
+}
+.log{
+    width: 46px;
+    height: 46px;
+}
+.lee{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+text-align: left;
+margin: -20px 20px 0 25px;
+padding-bottom: 10px;
+
 }
